@@ -2386,7 +2386,22 @@ a {
   }
 
 }
+/* =====================================================
+   NEWS LINK PLACEHOLDER
+===================================================== */
+
+.news-link {
+  display: inline-block;
+  color: #176b3a;
+  font-size: 12px;
+  font-weight: 800;
+}
 
 
+/* =====================================================
+   REMOVE LINK-LIKE BEHAVIOUR FROM PLACEHOLDER
+===================================================== */
 
-
+.news-card {
+  cursor: default;
+}
